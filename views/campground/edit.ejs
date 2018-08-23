@@ -1,0 +1,35 @@
+
+<% include ../partials/header.ejs %>
+
+<div class='container'>
+    <div id="div-addnew-part">
+        <h1>Edit Campground : <%= campground.name%></h1>
+        <form action='/campgrounds/<%=campground._id%>?_method=PUT' method='POST'>
+            <div class="form-group">
+                <input  class="form-control" type="text" name='name' value= "<%=campground.name%>">    
+            </div>
+            
+             <div class="form-group">
+                <input  class="form-control" type="text" name='image' value="<%=campground.image%>">
+            </div>
+            <div class="form-group">
+                <!--<input id="input-image" class="form-control" type="text" name='description' placeholder='description'>-->
+                <textarea class="form-group" name="description" rows="20" style="width:100%"><%=campground.description%></textarea>
+            </div>
+            
+            <button class='btn btn-primary btn-lg btn-block' id= "submit-btn">Submit</button>
+        </form>
+        <a href='/campgrounds'>Go back</a>
+    </div>
+
+
+    
+    
+</div>
+
+
+
+
+
+
+<% include ../partials/footer.ejs %>

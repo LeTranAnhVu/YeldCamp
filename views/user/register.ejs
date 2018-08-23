@@ -1,0 +1,27 @@
+<% include ../partials/header %>
+
+<div class='container'>
+    <div id="div-addnew-part">
+        <h1>Sign up</h1>
+        <form action="/register" method='POST'>
+            <div class="form-group">
+                <input class="form-control" type="text" name='username' placeholder='username'>    
+            </div>
+            
+             <div class="form-group">
+                <input class="form-control" type="password" name='password' placeholder='password'>
+            </div>
+            <button class='btn btn-danger btn-lg btn-block' id= "submit-btn">Sign up</button>
+        </form>
+       
+        
+        <a href='/campgrounds'>Go back</a>
+    </div>
+
+
+    
+    
+</div>
+
+  
+<% include ../partials/footer %>

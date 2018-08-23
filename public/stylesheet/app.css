@@ -1,0 +1,59 @@
+/*body{*/
+/*    background-color: #0f0f0f;*/
+/*}*/
+
+/*div[class*="col-"]{*/
+/*    border: 1px purple solid;*/
+/*}*/
+.own-center-me{
+    display: block;
+    margin : 0 auto;
+}
+#add-new-btn{
+    margin-top: 30px;
+    width:400px;
+}
+
+#div-addnew-part{
+    width:40%;
+    margin: 0 auto;
+}
+
+#div-addnew-part > h1{
+    text-align: center;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+
+.thumbnail{
+    padding: 0;
+}
+.margin-right-abit{
+    margin-right: 5px;
+}
+.my-btn-disable{
+    background-color: #cacaca;
+    color: white;
+}
+.inline-block{
+    display: inline-block;
+}
+.my-btn-group a{
+    margin: 4px;
+    border-radius: 3px;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+}
